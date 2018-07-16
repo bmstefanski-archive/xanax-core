@@ -1,6 +1,6 @@
 <h1 align="center">Xanax Core</h1>
 
-<p align="center"><img width="325" alt="A-Frame" src="https://i.imgur.com/r2cx6Rx.png"></p>
+<p align="center"><img width="325" alt="A-Frame" src="https://i.imgur.com/6WfXzCb.png"></p>
 <p align="center"><b>Enormous minecraft plugin (core), which contains many modules, like guilds, essential tools etc. in one Jar file</b></p>
 <p align="center">
   <a href="https://travis-ci.org/bmstefanski/xanax-core"><img src="https://travis-ci.org/bmstefanski/xanax-core.svg?branch=master" alt="Linux build"></a>
