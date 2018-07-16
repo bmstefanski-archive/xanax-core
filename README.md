@@ -4,7 +4,7 @@
 <p align="center"><b>Enormous minecraft plugin (core), which contains many modules, like guilds, essential tools etc. in one Jar file</b></p>
 <p align="center">
   <a href="https://travis-ci.org/bmstefanski/xanax-core"><img src="https://travis-ci.org/bmstefanski/xanax-core.svg?branch=master" alt="Linux build"></a>
-  <a href="https://ci.appveyor.com/project/bmstefanski/xanax-core/"><img src="https://ci.appveyor.com/api/projects/status/scy11cysc9552xt0?svg=true" alt="Windows build"></a>
+  <a href="https://ci.appveyor.com/project/bmstefanski/xanax-core/"><img src="https://ci.appveyor.com/api/projects/status/p9yyj3pkuj8vhsrn?svg=true" alt="Windows build"></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>
 </p>
 <div align="center">
