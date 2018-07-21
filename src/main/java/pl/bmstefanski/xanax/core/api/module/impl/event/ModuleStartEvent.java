@@ -1,4 +1,4 @@
-package pl.bmstefanski.xanax.core.api.event.impl;
+package pl.bmstefanski.xanax.core.api.module.impl.event;
 
 import pl.bmstefanski.xanax.core.api.event.CustomEvent;
 import pl.bmstefanski.xanax.core.api.module.PluginModule;

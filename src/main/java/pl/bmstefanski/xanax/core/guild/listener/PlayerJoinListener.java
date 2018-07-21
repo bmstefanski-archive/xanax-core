@@ -12,7 +12,7 @@ public class PlayerJoinListener implements Listener<PlayerJoinEvent> {
   @EventHandler(priority = EventPriority.LOWEST)
   @Override
   public void performEvent(PlayerJoinEvent event) {
-    event.getPlayer().sendMessage("CHUJ XD");
+    event.getPlayer().sendMessage("example");
   }
 
 }
