@@ -2,6 +2,7 @@ package pl.bmstefanski.xanax.core.api.storage.impl;
 
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
+import java.sql.Connection;
 import java.sql.SQLException;
 import pl.bmstefanski.xanax.core.api.storage.Storage;
 
@@ -14,12 +15,8 @@ public class HikariStorageImpl implements Storage {
   }
 
   @Override
-  public void getConnection() {
-    try {
-      this.hikariDataSource.getConnection();
-    } catch (SQLException e) {
-      e.printStackTrace();
-    }
+  public Connection getConnection() throws SQLException {
+    return this.hikariDataSource.getConnection();
   }
 
   @Override
