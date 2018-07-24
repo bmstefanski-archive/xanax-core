@@ -17,7 +17,7 @@ import pl.bmstefanski.xanax.core.api.module.Module;
 
 public final class BeanContainerInitializer {
 
-  private final static Map<String, Object> BEAN_INSTANCES = new LinkedHashMap<>();
+  private static final Map<String, Object> BEAN_INSTANCES = new LinkedHashMap<>();
 
   public static void initialize(String packageName, Module module) {
     Reflections reflections = new Reflections(packageName, new TypeAnnotationsScanner(),
