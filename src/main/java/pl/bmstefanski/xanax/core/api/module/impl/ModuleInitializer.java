@@ -18,8 +18,7 @@ public final class ModuleInitializer {
       ModuleInfo moduleInfo = moduleClazz.getAnnotation(ModuleInfo.class);
       PluginModule pluginModule = new PluginModuleImpl(
           moduleInfo.name(),
-          moduleInfo.version(),
-          moduleInfo.clazz()
+          moduleInfo.version()
       );
 
       MODULES.add(pluginModule);
