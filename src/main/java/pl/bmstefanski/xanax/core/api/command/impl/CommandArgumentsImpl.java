@@ -2,7 +2,6 @@ package pl.bmstefanski.xanax.core.api.command.impl;
 
 import com.google.common.collect.ImmutableList;
 import java.util.List;
-import java.util.Optional;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import pl.bmstefanski.xanax.core.api.command.CommandArguments;
