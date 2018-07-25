@@ -22,9 +22,7 @@ public class CommandArgumentsImpl implements CommandArguments {
 
   @Override
   public Player getPlayer(int index) {
-    return Optional
-        .of(Bukkit.getPlayerExact(this.get(index)))
-        .orElse(null);
+    return Bukkit.getPlayerExact(this.get(index));
   }
 
   @Override
