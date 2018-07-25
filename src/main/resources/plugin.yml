@@ -1,0 +1,5 @@
+name: XanaxCore
+main: pl.bmstefanski.xanax.core.XanaxCorePlugin
+description: Enormous minecraft plugin (core), which contains many modules, like guilds, essential tools etc. in one Jar file
+version: 0.0.1
+author: [bmstefanski, yooniks, vellde]
