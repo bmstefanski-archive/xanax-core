@@ -18,7 +18,7 @@ public abstract class AbstractUserManager<T extends User> implements UserManager
 
   @Override
   public Optional<T> getUser(String name) {
-    Validate.notNull(name, "Player name cannot be null!");
+    Validate.notNull(name, "Player value cannot be null!");
 
     return this.userNameMap.values()
         .stream()

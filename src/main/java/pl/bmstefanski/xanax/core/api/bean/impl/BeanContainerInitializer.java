@@ -32,7 +32,8 @@ public final class BeanContainerInitializer {
 
     beans.forEach(classes -> classes.forEach(aClass -> {
       try {
-        if (aClass.getConstructors().length > 0) {
+
+        if (aClass.getConstructors()[0].getParameterCount() == 1) {
           BEAN_INSTANCES.putIfAbsent(aClass.getName(),
               aClass.getDeclaredConstructor(module.getClass()).newInstance(module));
           return;

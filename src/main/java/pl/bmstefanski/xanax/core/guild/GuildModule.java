@@ -7,6 +7,7 @@ import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 import pl.bmstefanski.xanax.core.XanaxCorePlugin;
 import pl.bmstefanski.xanax.core.api.bean.impl.BeanContainerInitializer;
+import pl.bmstefanski.xanax.core.api.command.impl.CommandInitializer;
 import pl.bmstefanski.xanax.core.api.i18n.impl.InternationalizationInitializer;
 import pl.bmstefanski.xanax.core.api.module.impl.event.ModuleStartEvent;
 import pl.bmstefanski.xanax.core.api.module.impl.event.ModuleStopEvent;
@@ -25,6 +26,7 @@ public class GuildModule implements Module {
     BeanContainerInitializer.initialize(MODULE_PACKAGE_SCOPE, this);
     InternationalizationInitializer.initialize(Locale.ENGLISH, MODULE_PACKAGE_SCOPE);
     ListenerInitializer.initialize(this.getPlugin(), MODULE_PACKAGE_SCOPE + ".listener");
+    CommandInitializer.initialize(MODULE_PACKAGE_SCOPE + ".command");
   }
 
   @EventHandler(priority = EventPriority.LOWEST)
