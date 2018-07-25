@@ -37,8 +37,6 @@ public final class CommandInitializer {
     Reflections reflections = new Reflections(packageName, new MethodAnnotationsScanner());
     Set<Method> methods = reflections.getMethodsAnnotatedWith(CommandInfo.class);
 
-    System.out.println("methods: " + methods);
-
     methods.forEach(method -> {
       CommandInfo commandAnnotation = method.getAnnotation(CommandInfo.class);
 
