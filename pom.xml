@@ -6,7 +6,7 @@
 
   <groupId>pl.bmstefanski</groupId>
   <artifactId>xanax-core</artifactId>
-  <version>0.0.1</version>
+  <version>0.0.2</version>
   <name>Xanax Core</name>
 
   <properties>

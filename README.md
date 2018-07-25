@@ -25,7 +25,7 @@
 
 ## Download
 The latest stable version of our plugin, you can get [here](https://github.com/bmstefanski/xanax-core/releases).  
-Current version: <a href="https://github.com/bmstefanski/xanax-core/releases"><img src="https://img.shields.io/badge/version-0.0.1-blue.svg"></a>
+Current version: <a href="https://github.com/bmstefanski/xanax-core/releases"><img src="https://img.shields.io/badge/version-0.0.2-blue.svg"></a>
 
 ## Contributing
 `DLA PANÓW Z POLSKI - COMMITY JAK I PULL REQUESTY NAZYWAMY PO ANGIELSKU :)`

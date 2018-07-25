@@ -15,7 +15,7 @@ import pl.bmstefanski.xanax.core.api.listener.impl.ListenerInitializer;
 import pl.bmstefanski.xanax.core.api.module.Module;
 import pl.bmstefanski.xanax.core.api.module.ModuleInfo;
 
-@ModuleInfo(name = "guild", version = "0.0.1")
+@ModuleInfo(name = "guild", version = "0.0.2")
 public class GuildModule implements Module {
 
   private static final String MODULE_PACKAGE_SCOPE = "pl.bmstefanski.xanax.core.guild";
