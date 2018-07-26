@@ -68,7 +68,6 @@ public class DropImpl implements Drop {
     return expReal;
   }
 
-
   @Override
   public boolean isFortune() {
     return fortune;
