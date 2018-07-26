@@ -1,4 +1,4 @@
-package pl.bmstefanski.xanax.core.drop;
+package pl.bmstefanski.xanax.core.drop.entity.impl;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -9,6 +9,7 @@ import org.bukkit.Material;
 import org.bukkit.block.Biome;
 import org.bukkit.configuration.serialization.SerializableAs;
 import org.bukkit.inventory.ItemStack;
+import pl.bmstefanski.xanax.core.drop.entity.Drop;
 
 @SerializableAs("Drop")
 public class DropImpl implements Drop {

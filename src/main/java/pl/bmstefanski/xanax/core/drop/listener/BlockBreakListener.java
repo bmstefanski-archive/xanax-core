@@ -10,7 +10,7 @@ import org.bukkit.event.block.BlockBreakEvent;
 import pl.bmstefanski.xanax.core.api.bean.ListenerBean;
 import pl.bmstefanski.xanax.core.api.listener.AutoRegister;
 import pl.bmstefanski.xanax.core.api.listener.Listener;
-import pl.bmstefanski.xanax.core.drop.Drop;
+import pl.bmstefanski.xanax.core.drop.entity.Drop;
 import pl.bmstefanski.xanax.core.drop.DropModule;
 import pl.bmstefanski.xanax.core.drop.entity.DropUser;
 import pl.bmstefanski.xanax.core.drop.event.DropItemEvent;
