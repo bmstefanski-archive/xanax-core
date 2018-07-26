@@ -1,6 +1,7 @@
 package pl.bmstefanski.xanax.core.drop;
 
 import java.util.Locale;
+import org.bukkit.block.Biome;
 import org.bukkit.configuration.serialization.ConfigurationSerialization;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
@@ -19,7 +20,7 @@ import pl.bmstefanski.xanax.core.drop.impl.DropImpl;
 import pl.bmstefanski.xanax.core.drop.impl.DropManagerImpl;
 import pl.bmstefanski.xanax.core.drop.impl.DropUserManagerImpl;
 
-@ModuleInfo(name = "drop", version = "0.0.1")
+@ModuleInfo(name = "drop", version = "0.0.2")
 public class DropModule implements Module {
 
   private DropManager dropManager;
@@ -29,7 +30,6 @@ public class DropModule implements Module {
   @Override
   public void onStart(ModuleStartEvent event) {
     ConfigurationSerialization.registerClass(DropImpl.class, "Drop");
-
     this.dropManager = new DropManagerImpl();
     this.userManager = new DropUserManagerImpl();
 

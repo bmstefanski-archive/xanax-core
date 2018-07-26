@@ -20,7 +20,6 @@ public class LoginListener implements Listener<PlayerLoginEvent> {
   @EventHandler
   @Override
   public void performEvent(PlayerLoginEvent event) {
-
   }
 
 }
