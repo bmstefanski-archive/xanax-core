@@ -15,8 +15,11 @@ import pl.bmstefanski.xanax.core.api.module.Module;
 import pl.bmstefanski.xanax.core.api.module.ModuleInfo;
 import pl.bmstefanski.xanax.core.api.module.impl.event.ModuleStartEvent;
 import pl.bmstefanski.xanax.core.api.module.impl.event.ModuleStopEvent;
-import pl.bmstefanski.xanax.core.drop.entity.DropUserManager;
-import pl.bmstefanski.xanax.core.drop.entity.impl.DropUserManagerImpl;
+import pl.bmstefanski.xanax.core.drop.manager.impl.DropManagerImpl;
+import pl.bmstefanski.xanax.core.drop.manager.DropUserManager;
+import pl.bmstefanski.xanax.core.drop.entity.impl.DropImpl;
+import pl.bmstefanski.xanax.core.drop.manager.impl.DropUserManagerImpl;
+import pl.bmstefanski.xanax.core.drop.manager.DropManager;
 
 @ModuleInfo(name = "drop", version = "0.0.2")
 public class DropModule implements Module {

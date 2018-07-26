@@ -1,7 +1,7 @@
 package pl.bmstefanski.xanax.core.drop.event;
 
 import pl.bmstefanski.xanax.core.api.event.CustomEvent;
-import pl.bmstefanski.xanax.core.drop.Drop;
+import pl.bmstefanski.xanax.core.drop.entity.Drop;
 import pl.bmstefanski.xanax.core.drop.entity.DropUser;
 
 public class DropItemEvent extends CustomEvent {

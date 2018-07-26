@@ -2,7 +2,7 @@ package pl.bmstefanski.xanax.core.drop.helper;
 
 import java.util.Set;
 import java.util.concurrent.ThreadLocalRandom;
-import pl.bmstefanski.xanax.core.drop.Drop;
+import pl.bmstefanski.xanax.core.drop.entity.Drop;
 
 public final class ChanceHelper {
 

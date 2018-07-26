@@ -1,13 +1,13 @@
-package pl.bmstefanski.xanax.core.drop;
+package pl.bmstefanski.xanax.core.drop.manager.impl;
 
 import java.util.HashSet;
 import java.util.Set;
 import org.bukkit.Bukkit;
 import org.bukkit.inventory.Inventory;
-import pl.bmstefanski.xanax.core.drop.Drop;
-import pl.bmstefanski.xanax.core.drop.DropManager;
+import pl.bmstefanski.xanax.core.drop.entity.Drop;
 import pl.bmstefanski.xanax.core.drop.helper.ChanceHelper;
 import pl.bmstefanski.xanax.core.drop.helper.InventorySize;
+import pl.bmstefanski.xanax.core.drop.manager.DropManager;
 
 public class DropManagerImpl implements DropManager {
 
