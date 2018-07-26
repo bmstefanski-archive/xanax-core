@@ -1,4 +1,4 @@
-package pl.bmstefanski.xanax.core.drop.impl;
+package pl.bmstefanski.xanax.core.drop.entity.impl;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -8,7 +8,7 @@ import java.util.UUID;
 import org.apache.commons.lang.builder.ToStringBuilder;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
-import pl.bmstefanski.xanax.core.drop.DropUser;
+import pl.bmstefanski.xanax.core.drop.entity.DropUser;
 
 public class DropUserImpl implements DropUser {
 
