@@ -1,0 +1,13 @@
+#prototype
+drops:
+  diamond:
+    item: DIAMOND
+    amount: 2
+    chance: 20.0
+    exp: 20
+    expReal: 10
+    fortune: true
+    heigt: 60
+    tools:
+      - DIAMOND_PICKAXE
+      - IRON_PICKAXE

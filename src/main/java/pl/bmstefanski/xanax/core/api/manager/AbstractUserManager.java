@@ -45,7 +45,7 @@ public abstract class AbstractUserManager<T extends User> implements UserManager
 
   @Override
   public void addUser(T user) {
-    Validate.notNull(user, "User object cannot be null!");
+    Validate.notNull(user, "DropUser object cannot be null!");
 
     this.userUniqueIdMap.put(user.getIdentifier(), user);
     if (user.getName().isPresent()) {
@@ -55,7 +55,7 @@ public abstract class AbstractUserManager<T extends User> implements UserManager
 
   @Override
   public void removeUser(T user) {
-    Validate.notNull(user, "User object cannot be null!");
+    Validate.notNull(user, "DropUser object cannot be null!");
 
     this.userUniqueIdMap.remove(user.getIdentifier());
     this.userNameMap.remove(user.getName().get());
