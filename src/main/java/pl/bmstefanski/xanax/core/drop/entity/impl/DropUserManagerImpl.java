@@ -1,9 +1,10 @@
-package pl.bmstefanski.xanax.core.drop.impl;
+package pl.bmstefanski.xanax.core.drop.entity.impl;
 
 import org.bukkit.entity.Player;
 import pl.bmstefanski.xanax.core.api.manager.AbstractUserManager;
-import pl.bmstefanski.xanax.core.drop.DropUser;
-import pl.bmstefanski.xanax.core.drop.DropUserManager;
+import pl.bmstefanski.xanax.core.drop.entity.DropUser;
+import pl.bmstefanski.xanax.core.drop.entity.DropUserManager;
+import pl.bmstefanski.xanax.core.drop.entity.impl.DropUserImpl;
 
 public class DropUserManagerImpl extends AbstractUserManager<DropUser> implements DropUserManager {
 

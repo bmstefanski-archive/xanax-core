@@ -1,7 +1,6 @@
 package pl.bmstefanski.xanax.core.drop;
 
 import java.util.Locale;
-import org.bukkit.block.Biome;
 import org.bukkit.configuration.serialization.ConfigurationSerialization;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
@@ -16,9 +15,8 @@ import pl.bmstefanski.xanax.core.api.module.Module;
 import pl.bmstefanski.xanax.core.api.module.ModuleInfo;
 import pl.bmstefanski.xanax.core.api.module.impl.event.ModuleStartEvent;
 import pl.bmstefanski.xanax.core.api.module.impl.event.ModuleStopEvent;
-import pl.bmstefanski.xanax.core.drop.impl.DropImpl;
-import pl.bmstefanski.xanax.core.drop.impl.DropManagerImpl;
-import pl.bmstefanski.xanax.core.drop.impl.DropUserManagerImpl;
+import pl.bmstefanski.xanax.core.drop.entity.DropUserManager;
+import pl.bmstefanski.xanax.core.drop.entity.impl.DropUserManagerImpl;
 
 @ModuleInfo(name = "drop", version = "0.0.2")
 public class DropModule implements Module {

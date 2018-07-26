@@ -1,4 +1,4 @@
-package pl.bmstefanski.xanax.core.drop;
+package pl.bmstefanski.xanax.core.drop.entity;
 
 import org.bukkit.inventory.ItemStack;
 import pl.bmstefanski.xanax.core.api.entity.User;

@@ -1,4 +1,4 @@
-package pl.bmstefanski.xanax.core.drop.impl;
+package pl.bmstefanski.xanax.core.drop;
 
 import java.util.HashSet;
 import java.util.Set;
