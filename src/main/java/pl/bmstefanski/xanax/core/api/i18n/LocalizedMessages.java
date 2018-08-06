@@ -5,6 +5,10 @@ import org.bukkit.configuration.file.FileConfiguration;
 import java.util.HashMap;
 import java.util.Map;
 
+/*
+ * @author jwiczkowsky
+ * */
+
 public class LocalizedMessages {
 
   private final Locale locale;

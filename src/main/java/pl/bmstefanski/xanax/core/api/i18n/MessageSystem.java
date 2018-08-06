@@ -11,6 +11,10 @@ import org.bukkit.plugin.java.JavaPlugin;
 import java.util.HashMap;
 import java.util.Map;
 
+/*
+ * @author jwiczkowsky
+ * */
+
 public class MessageSystem {
 
   private final JavaPlugin javaPlugin;

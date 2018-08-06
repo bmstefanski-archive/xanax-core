@@ -1,5 +1,9 @@
 package pl.bmstefanski.xanax.core.api.i18n;
 
+/*
+ * @author jwiczkowsky
+ * */
+
 public enum MessageType {
 
   CHAT,

@@ -2,6 +2,10 @@ package pl.bmstefanski.xanax.core.api.i18n;
 
 import org.bukkit.entity.Player;
 
+/*
+ * @author jwiczkowsky
+ * */
+
 public enum Locale {
 
   POLISH("pl_PL", "Polski", "Polska"),

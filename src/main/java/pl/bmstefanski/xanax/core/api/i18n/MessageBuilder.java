@@ -3,6 +3,10 @@ package pl.bmstefanski.xanax.core.api.i18n;
 import org.apache.commons.lang.StringUtils;
 import org.bukkit.ChatColor;
 
+/*
+ * @author jwiczkowsky
+ * */
+
 public class MessageBuilder {
 
   private String message;
