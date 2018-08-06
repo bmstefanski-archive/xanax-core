@@ -8,7 +8,6 @@ import java.util.Map;
 public class LocalizedMessages {
 
   private final Locale locale;
-
   private final Map<String, String> messagesMap = new HashMap<>();
 
   LocalizedMessages(Locale locale, FileConfiguration yamlConfiguration) {

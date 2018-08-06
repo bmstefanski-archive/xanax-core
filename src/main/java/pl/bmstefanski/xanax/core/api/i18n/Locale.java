@@ -9,7 +9,6 @@ public enum Locale {
 
   private final String localeCode;
   private final String localeName;
-
   private final String country;
 
   Locale(String localeCode, String localeName, String country) {
