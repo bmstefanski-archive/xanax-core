@@ -26,16 +26,17 @@
 package pl.bmstefanski.xanax.core.api.module;
 
 import org.bukkit.event.Listener;
-import org.bukkit.plugin.Plugin;
-import pl.bmstefanski.xanax.core.api.module.impl.event.ModuleStartEvent;
-import pl.bmstefanski.xanax.core.api.module.impl.event.ModuleStopEvent;
+import org.bukkit.plugin.java.JavaPlugin;
+import pl.bmstefanski.xanax.core.XanaxCorePlugin;
 
 public interface Module extends Listener {
 
-  void onStart(ModuleStartEvent event);
+  void onStart();
 
-  void onStop(ModuleStopEvent event);
+  void onStop();
 
-  Plugin getPlugin();
+  default XanaxCorePlugin getPlugin() {
+    return JavaPlugin.getPlugin(XanaxCorePlugin.class);
+  }
 
 }
