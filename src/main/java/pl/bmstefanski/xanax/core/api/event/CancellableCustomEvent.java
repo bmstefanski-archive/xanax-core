@@ -23,29 +23,22 @@
  *
  */
 
-package pl.bmstefanski.xanax.core.guild;
+package pl.bmstefanski.xanax.core.api.event;
 
-import pl.bmstefanski.xanax.core.api.bean.impl.BeanContainerInitializer;
-import pl.bmstefanski.xanax.core.api.command.impl.CommandInitializer;
-import pl.bmstefanski.xanax.core.api.listener.impl.ListenerInitializer;
-import pl.bmstefanski.xanax.core.api.module.Module;
-import pl.bmstefanski.xanax.core.api.module.ModuleInfo;
+import org.bukkit.event.Cancellable;
 
-@ModuleInfo(name = "guild", version = "0.0.2")
-public class GuildModule implements Module {
+public class CancellableCustomEvent extends CustomEvent implements Cancellable {
 
-  private static final String MODULE_PACKAGE_SCOPE = "pl.bmstefanski.xanax.core.guild";
+  private boolean cancelled;
 
   @Override
-  public void onStart() {
-    BeanContainerInitializer.initialize(MODULE_PACKAGE_SCOPE, this);
-    ListenerInitializer.initialize(this.getPlugin(), MODULE_PACKAGE_SCOPE + ".listener");
-    CommandInitializer.initialize(MODULE_PACKAGE_SCOPE + ".command");
+  public boolean isCancelled() {
+    return this.cancelled;
   }
 
   @Override
-  public void onStop() {
-
+  public void setCancelled(boolean cancelled) {
+    this.cancelled = cancelled;
   }
 
 }
